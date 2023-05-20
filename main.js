@@ -4,11 +4,11 @@ const input = document.querySelector('.input');
 const span = document.querySelector('.span');
 const btn = document.querySelector('.btn');
 const ques = document.querySelector('.q');
-const audioTak = new Audio('/tak.mp4')
-const audioWin = new Audio('/win.mp3')
-const audioNope = new Audio('/game/nope.mp3')
-const audioNan = new Audio('/nan.mp3')
-const audioPov = new Audio('/povorot.mp3')
+const audioTak = new Audio('/game1/tak.mp4')
+const audioWin = new Audio('/game1/win.mp3')
+const audioNope = new Audio('/game1/nope.mp3')
+const audioNan = new Audio('/game1/nan.mp3')
+const audioPov = new Audio('/game1/povorot.mp3')
 
 
 const randomNum = function () {
